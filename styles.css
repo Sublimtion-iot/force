@@ -885,16 +885,15 @@ body {
 }
 
 /* Responsive Design */
-/* --- Règles générales de la Navbar --- */
 
-/* Cache le texte du logo pour les écrans entre 801px et 1000px */
+/* Cache le texte du logo pour les écrans entre 751px et 1000px */
 @media (max-width: 1000px) {
     .navbar .logo .logo-text {
         display: none;
     }
 }
 
-/* --- Media Query pour les tablettes (750px et moins) --- */
+/* --- Media Query pour les tablettes (490px à 751px) --- */
 @media (max-width: 750px) {
     /* Le hamburger apparaît */
     .hamburger {
@@ -968,20 +967,19 @@ body {
         text-align: center;
     }
 }
-
-/* --- Media Query pour les mobiles (300px et moins) --- */
-@media (max-width: 400px) {
+/* --- Media Query pour les mobiles (490px à 250px) --- */
+@media (max-width: 490px) {
     /* === NOUVELLE RÈGLE : Cache à nouveau le logo-text pour les très petits écrans === */
     /* Cette règle override celle de 800px quand la largeur est <= 500px */
     .navbar .logo .logo-text {
-        display: none;
+        display: flex;
     }
 
     .container {
         padding: 0 15px;
     }
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .cta-button {
         padding: 12px 24px;
@@ -997,6 +995,12 @@ body {
     }
     .section-title {
         font-size: 1.8rem;
+    }
+}
+/* --- Media Query pour les mobiles (250px et moins) --- */
+@media (max-width: 250px) {
+    .navbar .logo .logo-text {
+        display: none;
     }
 }
 
