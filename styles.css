@@ -971,9 +971,6 @@ body {
 @media (max-width: 490px) {
     /* === NOUVELLE RÈGLE : Cache à nouveau le logo-text pour les très petits écrans === */
     /* Cette règle override celle de 800px quand la largeur est <= 500px */
-    .navbar .logo .logo-text {
-        display: flex;
-    }
 
     .container {
         padding: 0 15px;
@@ -998,7 +995,7 @@ body {
     }
 }
 /* --- Media Query pour les mobiles (250px et moins) --- */
-@media (max-width: 250px) {
+@media (max-width: 200px) {
     .navbar .logo .logo-text {
         display: none;
     }
