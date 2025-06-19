@@ -967,7 +967,7 @@ body {
         text-align: center;
     }
 }
-/* --- Media Query pour les mobiles (490px à 250px) --- */
+/* --- Media Query pour les mobiles (490px à 2010px) --- */
 @media (max-width: 490px) {
     /* === NOUVELLE RÈGLE : Cache à nouveau le logo-text pour les très petits écrans === */
     /* Cette règle override celle de 800px quand la largeur est <= 500px */
@@ -995,7 +995,7 @@ body {
     }
 }
 /* --- Media Query pour les mobiles (250px et moins) --- */
-@media (max-width: 20px) {
+@media (max-width: 200px) {
     .navbar .logo .logo-text {
         display: none;
     }
