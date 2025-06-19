@@ -970,7 +970,7 @@ body {
 }
 
 /* --- Media Query pour les mobiles (300px et moins) --- */
-@media (max-width: 300px) {
+@media (max-width: 400px) {
     /* === NOUVELLE RÈGLE : Cache à nouveau le logo-text pour les très petits écrans === */
     /* Cette règle override celle de 800px quand la largeur est <= 500px */
     .navbar .logo .logo-text {
